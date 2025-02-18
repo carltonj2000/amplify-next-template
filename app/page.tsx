@@ -40,7 +40,7 @@ export default function App() {
       {({ signOut, user }) => (
         <main>
           <h1>Hello {user?.signInDetails?.loginId}</h1>
-          <button onClick={createTodo}>+ new</button>
+          {/* <button onClick={createTodo}>+ new</button>
           <ul>
             {todos.map((todo) => (
               <li key={todo.id} onClick={() => deleteTodo(todo.id)}>
@@ -54,7 +54,7 @@ export default function App() {
             <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
               Review next steps of this tutorial.
             </a>
-          </div>
+          </div> */}
           <button onClick={signOut}>Sign out</button>
         </main>
       )}
